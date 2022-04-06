@@ -8,7 +8,7 @@
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>{{ trans('front/site.title') }}</title>
+		<title>Laravel}</title>
 		<meta name="description" content="">	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -37,8 +37,8 @@
 
 	<header role="banner">
 
-		<div class="brand">{{ trans('front/site.title') }}</div>
-		<div class="address-bar">{{ trans('front/site.sub-title') }}</div>
+		<div class="brand">Laravel</div>
+		<div class="address-bar">Pemrograman Web Lanjut</div>
 		<div id="flags" class="text-center"></div>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
@@ -49,7 +49,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">{{ trans('front/site.title') }}</a>
+					<a class="navbar-brand" href="index.html">Laravel</a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
@@ -121,7 +121,7 @@
 
 	<footer role="contentinfo">
 		 @yield('footer')
-		<p class="text-center"><small>Copyright &copy; Momo</small></p>
+		<p class="text-center"></p>
 	</footer>
 		
 	{!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
